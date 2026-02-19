@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="175d94ee-02b7-432a-8b9a-cf6216c0bd31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/images/about/image-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/images/about/image-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/images/about/image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/images/index/image-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/images/index/image-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/img/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/img/frame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/img/google.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/img/hide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/registration.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="39tGtFsX0Gl5VHL5vxbQHoeJMXN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Work/hillel/fe-basic-05.02.2026",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="175d94ee-02b7-432a-8b9a-cf6216c0bd31" name="Changes" comment="" />
+      <created>1771508165789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771508165789</updated>
+      <workItem from="1771508167195" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
