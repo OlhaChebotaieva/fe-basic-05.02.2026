@@ -27,9 +27,23 @@ body {
     font-size: 13px;
     font-weight: 400;
 }
+.subtitle {
+    margin-bottom: 14px;
+}
 .register {
     text-align: center;
     margin: 27px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.register .line {
+    background-color: #EAEAEA;
+    height: 1px;
+    flex-basis: 100%;
+}
+.register h2 {
+    white-space: nowrap;
 }
 .field {
     width: 300px;
@@ -57,6 +71,10 @@ body {
     width: 300px;
     height: 40px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9px;
 }
 .footer {
     width: 500px;
