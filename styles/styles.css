@@ -1,3 +1,21 @@
+:root {
+    --primary-bg: #FBFBFB;
+    --primary-color: #3D3D3D;
+    --secondary-color: #46A358;
+}
+
+body {
+    font-family: 'CeraPro', sans-serif;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -7,4 +25,142 @@
 .main-content {
     display: flex;
     column-gap: 50px;
+    margin-bottom: 90px;
 }
+
+.sidebar {
+    background-color: var(--primary-bg);
+    flex-basis: 310px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    flex-basis: 100%;
+    padding: 30px 0;
+}
+
+.sidebar-nav-wrap {
+    padding-left: 18px;
+}
+
+.sidebar nav {
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.sidebar nav a.active {
+    color: var(--secondary-color);
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort nav a.active {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sort nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sort-right a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.sort-right a::after {
+    content: "";
+    background: url("../icons/arrow-down.svg") no-repeat;
+    display: inline-block;
+    width: 16px; height: 16px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.sort-right a {
+    display: flex;
+    align-items: center;
+}
+
+ .sort-menu a {
+     margin-right: 37px;
+ }
+
+ .sort-menu a.active {
+     border-bottom: 2px solid var(--secondary-color);
+     padding-bottom: 7px;
+ }
+
+ .cards {
+     margin-top: 31px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 33px;
+ }
+
+ .card-title {
+     font-size: 16px;
+     margin-bottom: 6px;
+ }
+
+ .plant-price {
+     font-size: 18px;
+     font-weight: bold;
+     color: var(--secondary-color);
+
+ }
+
+ .card-image {
+     width: 250px;
+     height: 250px;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+
+ .card-image img {
+     height: 100%;
+ }
+
+ .pagination {
+     display: flex;
+     justify-content: flex-end;
+     gap: 10px;
+     padding-bottom: 30px;
+ }
+
+ .pagination a {
+     width: 35px;
+     height: 35px;
+     border: 1px solid #E5E5E5;
+     border-radius: 4px;
+     text-decoration: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pagination a.active {
+     background-color: var(--secondary-color);
+     color: white;
+ }
