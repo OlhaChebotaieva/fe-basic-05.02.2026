@@ -42,7 +42,7 @@ img {
     position: relative;
 }
 
-.header > * {
+.header .container > * {
     display: inline-block;
     vertical-align: middle;
 }
@@ -80,6 +80,13 @@ img {
     color: var(--bt-primary-color);
     background-color: var(--primary-color);
     border: none;
+}
+
+.line {
+    max-width: 1232px;
+    margin: 0 auto;
+    border: 0.3px solid rgba(70, 163, 88, 0.2);
+    transform: scaleY(0.3);
 }
 
 .button span {
@@ -134,11 +141,14 @@ img {
 .content-left {
     max-width: 680px;
     padding-top: 68px;
-    padding-left: 40px;
 }
 
 .planet {
     color: var(--primary-color);
+}
+
+.image {
+    margin-left: 9px;
 }
 
 
