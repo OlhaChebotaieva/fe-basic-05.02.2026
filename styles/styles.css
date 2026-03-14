@@ -1,0 +1,159 @@
+:root {
+    --primary-bg: #FBFBFB;
+    --primary-color: #3D3D3D;
+    --secondary-color: #46A358;
+}
+
+body {
+    font-family: 'CeraPro', sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.container {
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-content {
+    column-gap: 50px;
+    margin-bottom: 90px;
+}
+
+.content {
+    flex-basis: 100%;
+    padding: 30px 0;
+}
+
+.cards {
+    margin-top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.plant-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--secondary-color);
+
+}
+
+.card-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    padding-top: 24px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover .icons {
+    opacity: 1;
+}
+
+.card {
+    position: relative;
+}
+
+.card:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-color);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.card:hover:before {
+    opacity: 1;
+}
+
+.card-image img {
+    height: 100%;
+}
+
+.sale {
+    position: absolute;
+    top: 10px   ;
+    width: 80px;
+    height: 30px;
+    background: var(--secondary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort nav a.active {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sort nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sort-right a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sort-right a::after {
+    content: "";
+    background: url("../icons/arrow-down.svg") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.sort-right a {
+    display: flex;
+    align-items: center;
+}
+
+.sort-menu a {
+    margin-right: 37px;
+}
+
+.sort-menu a.active {
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 7px;
+}
