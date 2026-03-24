@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="175d94ee-02b7-432a-8b9a-cf6216c0bd31" name="Changes" comment="finish">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;OlhaChebotaieva&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/OlhaChebotaieva/fe-basic-05.02.2026.git&quot;,
+    &quot;accountId&quot;: &quot;b8e58867-c956-452b-b83c-f443d22fe5aa&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="39tGtFsX0Gl5VHL5vxbQHoeJMXN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson-12&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work/hillel/fe-basic-05.02.2026/images/plants&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\plants" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\main" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\main" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\header" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\main" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\header" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\footer" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\footer" />
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\arrows" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="175d94ee-02b7-432a-8b9a-cf6216c0bd31" name="Changes" comment="" />
+      <created>1771508165789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771508165789</updated>
+      <workItem from="1771508167195" duration="73000" />
+      <workItem from="1772466414909" duration="3745000" />
+      <workItem from="1772980927418" duration="17850000" />
+      <workItem from="1773489127374" duration="7550000" />
+      <workItem from="1773574239871" duration="8448000" />
+      <workItem from="1773780873448" duration="56000" />
+      <workItem from="1774002364068" duration="3394000" />
+      <workItem from="1774019086505" duration="9687000" />
+      <workItem from="1774295808648" duration="5548000" />
+      <workItem from="1774349982773" duration="8495000" />
+    </task>
+    <task id="LOCAL-00001" summary="homework lesson 6">
+      <option name="closed" value="true" />
+      <created>1772048285684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772048285684</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework lesson 6">
+      <option name="closed" value="true" />
+      <created>1772981140395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772981140395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="start project">
+      <option name="closed" value="true" />
+      <created>1772982677883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772982677883</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added html stucture">
+      <option name="closed" value="true" />
+      <created>1772985989249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772985989249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finish">
+      <option name="closed" value="true" />
+      <created>1772995534994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772995534994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finish">
+      <option name="closed" value="true" />
+      <created>1773000081803</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773000081803</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finish">
+      <option name="closed" value="true" />
+      <created>1773582558514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773582558514</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finish">
+      <option name="closed" value="true" />
+      <created>1774019276119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774019276119</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish">
+      <option name="closed" value="true" />
+      <created>1774021916815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774021916815</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish">
+      <option name="closed" value="true" />
+      <created>1774296550042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774296550042</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson-9" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework lesson 6" />
+    <MESSAGE value="start project" />
+    <MESSAGE value="added html stucture" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
+  </component>
+</project>
