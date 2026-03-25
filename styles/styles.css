@@ -44,6 +44,22 @@ button {
     position: relative;
 }
 
+.btn-green {
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    color: var(--bt-primary-color);
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+
+    &:hover {
+        color: white;
+    }
+}
+
 /* /Common */
 
 /* Header */
@@ -83,6 +99,7 @@ button {
     display: block;
     padding: 25px 0;
     white-space: nowrap;
+    color: var(--secondary-color);
 }
 
 .nav__link--active {
@@ -90,25 +107,13 @@ button {
     border-bottom: #46A358 3px solid;
 }
 
-.header__button {
-    width: 100px;
-    height: 35px;
-    border-radius: 6px;
-    color: var(--bt-primary-color);
-    background-color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 4px;
-}
+
 
 .header__actions {
     margin-right: 30px;
     display: flex;
     column-gap: 30px;
 }
-
-
 /* /Header */
 
 /* Banner */
@@ -141,7 +146,6 @@ button {
     font-weight: 500;
     line-height: 16px;
     color: var(--secondary-color);
-
 }
 
 .banner__title {
@@ -174,9 +178,6 @@ button {
 }
 
 /* /Banner */
-
-/* Items */
-/* /Items */
 
 /* Recommended */
 .recommended {
@@ -240,7 +241,6 @@ button {
     position: relative;
     top: 2px;
 }
-
 /* Recommended */
 
 /* Blog posts */
@@ -459,6 +459,10 @@ button {
 .footer__menu-item {
     font-size: 14px;
     color: var(--secondary-color);
+
+    a {
+        color: var(--secondary-color);
+    }
 }
 
 .footer__social {
@@ -487,20 +491,34 @@ button {
     column-gap: 50px;
 }
 
+.sidebar__list {
+    margin-bottom: 35px;
+}
+
 .items__list li {
     display: flex;
     justify-content: space-between;
 }
 
-.sidebar__list li {
+.sidebar__list li a {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--secondary-color);
+
+    &:hover {
+        color: var(--primary-color);
+    }
 }
 
 .items__slider {
     background-color: #D7EADB;
     height: 4px;
     border-radius: 4px;
+    margin: 20px 0;
 }
 
 .items__slider-progress {
@@ -530,44 +548,28 @@ button {
     position: relative;
 }
 
-.filter-btn {
+.items__filter {
     width: 90px;
     height: 35px;
     border-radius: 6px;
     color: var(--bt-primary-color);
     background-color: var(--primary-color);
 }
-/* /Items */
 
-.sidebar-nav-wrap {
-    padding-left: 18px;
+.items__sidebar {
+    flex-basis: 300px;
 }
 
-.sidebar nav {
-    padding-left: 12px;
-    padding-top: 10px;
-}
-
-.sidebar nav a {
-    color: var(--primary-color);
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-size: 15px;
-    line-height: 25px;
-}
-
-.sidebar nav a.active {
-    color: var(--secondary-color);
-}
-
-.price-value {
-    color: var(--primary-color);
+.items__sidebar-nav {
+    padding-left: 15px;
 }
 
 .items__title {
     font-size: 18px;
     font-weight: 700;
     line-height: 16px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
 }
 
 .items li {
@@ -575,10 +577,10 @@ button {
     font-weight: 400;
     line-height: 40px;
     color: var(--secondary-color);
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
-.sort {
+.items__sort {
     display: flex;
     justify-content: space-between;
 }
@@ -596,11 +598,21 @@ button {
     font-size: 15px;
 }
 
-.sort-right a {
+.items__sort-right a {
     color: var(--secondary-color);
     text-decoration: none;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
 
+.items__sort-right a:after {
+    content: "";
+    display: block;
+    background: url("../icons/arrows/arrow-dropdown.svg") no-repeat;
+    width: 16px;
+    height: 16px;
 }
 
 .sort-right a::after {
@@ -618,48 +630,53 @@ button {
     align-items: center;
 }
 
-.sort-menu a {
+.items__sort-menu a {
+    color: var(--secondary-color);
     margin-right: 37px;
 }
 
-.sort-menu .title {
-    color: var(--secondary-color);
-}
-
-.active {
+.items__sort-menu a.active {
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
 }
 
-.cards {
+.items__cards {
     margin-top: 31px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
 
-.card-title {
+.items__card {
+    position: relative;
+
+    &:hover .items__card-icons {
+        opacity: 1;
+    }
+}
+
+.items__card-title {
     font-size: 16px;
     margin-bottom: 6px;
     color: var(--secondary-color);
 }
 
-.plant-price {
+.items__card-price {
     font-size: 18px;
     font-weight: bold;
     color: var(--primary-color);
 }
 
-.card-image {
+.items__card-image {
     width: 250px;
     height: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     background-color: var(--primary-bg);
     position: relative;
 }
 
-.card-image:before {
+.items__card-image:before {
     content: "";
     width: 100%;
     height: 1px;
@@ -674,27 +691,27 @@ button {
     transition: opacity 0.3s;
 }
 
-.card-image:hover:before {
+.items__card-image:hover:before {
     opacity: 1;
 }
-.card-image img {
+.items__card-image img {
     height: 100%;
 }
 
-.icons {
+.items__card-icons {
     display: flex;
     align-items: center;
     gap: 26px;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
 }
 
-.card:hover .icons {
-    opacity: 1;
-}
-
-.sale {
+.items__card-sale {
     position: absolute;
     width: 80px;
     height: 30px;
@@ -706,6 +723,33 @@ button {
     font-weight: 500;
 }
 
+.items__price {
+    margin-bottom: 45px;
+}
+
+.items__price-text {
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    font-size: 15px;
+}
+
+.items__price-text strong {
+    color: var(--primary-color);
+}
+
+.items__sale {
+    position: relative;
+}
+
+.items__sale h5 {
+    position: absolute;
+    top: 90px;
+    right: -15px;
+    color: var(--secondary-color);
+    font-size: 23px;
+}
+
+/* Pagination */
 .pagination {
     display: flex;
     justify-content: flex-end;
@@ -729,3 +773,4 @@ button {
     background-color: var(--primary-color);
     color: white;
 }
+/* / Pagination */

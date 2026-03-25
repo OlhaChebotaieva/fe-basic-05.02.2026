@@ -36,10 +36,10 @@
                     <img src="./icons/header/basket.svg" alt="Basket">
                 </button>
             </div>
-            <button class="header__button">
+            <a href="/login.html" class="btn-green">
                 <img src="./icons/header/logout.png" alt="Logout" width="20" height="20">
-                <span class="header__button-text">Login</span>
-            </button>
+                <span>Login</span>
+            </a>
         </div>
     </header>
     <!-- /Header -->
@@ -65,78 +65,98 @@
         <!-- Items -->
         <div class="items">
             <aside class="items__sidebar">
-                <div class="sidebar_nav">
+                <div class="items__sidebar-nav">
                     <h4 class="items__title">Categories</h4>
                     <ul class="sidebar__list">
-                        <li><span>House Plants</span><span class="count">(33)</span></li>
-                        <li><span>Potter Plants</span><span class="count">(12)</span></li>
-                        <li><span>Seeds</span><span class="count">(65)</span></li>
-                        <li><span>Small Plants</span><span class="count">(39)</span></li>
-                        <li><span>Big Plants</span><span class="count">(23)</span></li>
-                        <li><span>Succulents</span><span class="count">(17)</span></li>
-                        <li><span>Trerrariums</span><span class="count">(19)</span></li>
-                        <li><span>Gardening</span><span class="count">(13)</span></li>
-                        <li><span>Accessories</span><span class="count">(18)</span></li>
+                        <li>
+                            <a><span>House Plants</span><span>(33)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Potter Plants</span><span>(12)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Seeds</span><span>(65)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Small Plants</span><span>(39)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Big Plants</span><span>(23)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Succulents</span><span>(17)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Trerrariums</span><span>(19)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Gardening</span><span>(13)</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>Accessories</span><span>(18)</span></a>
+                        </li>
                     </ul>
+                </div>
+                <div class="items__price">
                     <h4 class="items__title">Price Range</h4>
-                    <div class="range-wrap">
-                        <div class="slider-box">
-                            <div class="slider-track"></div>
-                            <div class="slider-range" ></div>
-                        </div>
-                    </div>
-
                     <div class="items__slider">
                         <div class="items__slider-progress" style="width: 80%">
                             <div class="items__slider-point items__slider-point--start"></div>
                             <div class="items__slider-point items__slider-point--end"></div>
                         </div>
                     </div>
-
-                    <p class="price-text">
-                        Price:
-                        <span class="price-value" id="priceValue">$39 - $1230</span>
+                    <p class="items__price-text">
+                        <span>Price:</span>
+                        <strong class="price-value">$39 - $1230</strong>
                     </p>
-                    <button class="filter-btn">Filter</button>
+                    <button class="btn-green">Filter</button>
                 </div>
-                <div class="items__size">
+                <div class="items__sidebar-nav">
                     <h4 class="items__title">Size</h4>
-                    <ul class="items__list">
+                    <ul class="sidebar__list">
                         <li>
-                            <span>Small</span><span class="count">(119)</span>
+                            <a href="#">
+                                <span>Small</span><span>(119)</span>
+                            </a>
                         </li>
                         <li>
-                            <span>Medium</span><span class="count">(86)</span>
+                            <a href="#">
+                                <span>Medium</span><span>(86)</span>
+                            </a>
                         </li>
                         <li>
-                            <span>Large</span><span class="count">(78)</span>
+                            <a href="#">
+                                <span>Large</span><span>(78)</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="items__sale">
                     <img src="./images/main/sale.png" alt="sale">
+                    <h5>UP TO 75% OFF</h5>
                 </div>
             </aside>
             <main class="items__list">
-                <div class="sort">
-                    <nav class="sort-menu">
-                        <a class="title active" href="#">All Plants</a>
-                        <a class="title" href="#">New Arrivals</a>
-                        <a class="title" href="#">Sale</a>
+                <div class="items__sort">
+                    <nav class="items__sort-menu">
+                        <a class="active" href="#">All Plants</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Sale</a>
                     </nav>
-                    <div class="sort-right">
-                        <a href="#"><span>Short by:Default sorting</span></a>
+                    <div class="items__sort-right">
+                        <a href="#"><span>Short by: Default sorting</span></a>
                     </div>
                 </div>
-                <div class="cards">
-                    <div class="card">
-                        <div class="card-image">
+                <div class="items__cards">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant1.png" alt="plant1">
                         </div>
-                        <div class="icons">
-                            <a href="/card">
+                        <div class="items__card-icons">
+                            <button type="button">
                                 <img src="icons/main/shopping.svg" alt="Image">
-                            </a>
+                            </button>
                             <button type="button">
                                 <img src="icons/main/heart.svg" alt="Image">
                             </button>
@@ -144,17 +164,17 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Barberton Daisy</p>
-                        <p class="plant-price">$119.00</p>
+                        <p class="items__card-title">Barberton Daisy</p>
+                        <p class="items__card-price">$119.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant2.png" alt="plant2">
                         </div>
-                        <div class="icons">
-                            <a href="/card">
+                        <div class="items__card-icons">
+                            <button type="button">
                                 <img src="icons/main/shopping.svg" alt="Image">
-                            </a>
+                            </button>
                             <button type="button">
                                 <img src="icons/main/heart.svg" alt="Image">
                             </button>
@@ -162,15 +182,15 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Angel Wing Begonia</p>
-                        <p class="plant-price">$169.00</p>
+                        <p class="items__card-title">Angel Wing Begonia</p>
+                        <p class="items__card-price">$169.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
-                            <div class="sale">13% OFF</div>
+                    <div class="items__card">
+                        <div class="items__card-image">
+                            <div class="items__card-sale">13% OFF</div>
                             <img src="./images/main/plant3.png" alt="plant3">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -181,14 +201,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">African Violet</p>
-                        <p class="plant-price">$199.00</p>
+                        <p class="items__card-title">African Violet</p>
+                        <p class="items__card-price">$199.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant4.png" alt="plant4">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -199,14 +219,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Beach Spider Lily</p>
-                        <p class="plant-price">$129.00</p>
+                        <p class="items__card-title">Beach Spider Lily</p>
+                        <p class="items__card-price">$129.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant5.png" alt="plant5">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -217,14 +237,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Blushing Bromeliad</p>
-                        <p class="plant-price">$139.00</p>
+                        <p class="items__card-title">Blushing Bromeliad</p>
+                        <p class="items__card-price">$139.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant6.png" alt="plant6">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -235,14 +255,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Aluminum Plant</p>
-                        <p class="plant-price">$179.00</p>
+                        <p class="items__card-title">Aluminum Plant</p>
+                        <p class="items__card-price">$179.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant7.png" alt="plant7">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -253,14 +273,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Bird's Nest Fern</p>
-                        <p class="plant-price">$99.00</p>
+                        <p class="items__card-title">Bird's Nest Fern</p>
+                        <p class="items__card-price">$99.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant8.png" alt="plant8">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -271,14 +291,14 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Broadleaf Lady Palm</p>
-                        <p class="plant-price">$59.00</p>
+                        <p class="items__card-title">Broadleaf Lady Palm</p>
+                        <p class="items__card-price">$59.00</p>
                     </div>
-                    <div class="card">
-                        <div class="card-image">
+                    <div class="items__card">
+                        <div class="items__card-image">
                             <img src="./images/main/plant9.png" alt="plant9">
                         </div>
-                        <div class="icons">
+                        <div class="items__card-icons">
                             <a href="/card">
                                 <img src="icons/main/shopping.svg" alt="Image">
                             </a>
@@ -289,22 +309,20 @@
                                 <img src="icons/main/vector.svg" alt="Image">
                             </button>
                         </div>
-                        <p class="card-title">Chinese Evergreen</p>
-                        <p class="plant-price">$39.00</p>
+                        <p class="items__card-title">Chinese Evergreen</p>
+                        <p class="items__card-price">$39.00</p>
                     </div>
                 </div>
             </main>
         </div>
-        <div>
-            <div class="pagination">
-                <a class="active" href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">
-                    <img src="./icons/main/arrow-right.svg" alt="go to last page">
-                </a>
-            </div>
+        <div class="pagination">
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">
+                <img src="./icons/main/arrow-right.svg" alt="go to last page">
+            </a>
         </div>
         <!-- /Items -->
 
