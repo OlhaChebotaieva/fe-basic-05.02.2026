@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="175d94ee-02b7-432a-8b9a-cf6216c0bd31" name="Changes" comment="finish">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/main/sale.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main/sale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +87,11 @@
       <recent name="D:\Work\hillel\fe-basic-05.02.2026" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\main" />
       <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\main" />
       <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\header" />
       <recent name="D:\Work\hillel\fe-basic-05.02.2026\images\footer" />
       <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\footer" />
-      <recent name="D:\Work\hillel\fe-basic-05.02.2026\icons\arrows" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -115,7 +117,8 @@
       <workItem from="1774002364068" duration="3394000" />
       <workItem from="1774019086505" duration="9687000" />
       <workItem from="1774295808648" duration="5548000" />
-      <workItem from="1774349982773" duration="8495000" />
+      <workItem from="1774349982773" duration="20751000" />
+      <workItem from="1774460370146" duration="4221000" />
     </task>
     <task id="LOCAL-00001" summary="homework lesson 6">
       <option name="closed" value="true" />
@@ -197,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774296550042</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finish">
+      <option name="closed" value="true" />
+      <created>1774358556743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1774358556743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
