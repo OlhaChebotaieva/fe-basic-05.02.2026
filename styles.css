@@ -1,0 +1,214 @@
+.container {
+    max-width: 800px;
+    border-radius: 20px
+}
+
+.app {
+    position: relative;
+
+}
+
+.content {
+    padding: 10px;
+    position: relative;
+    z-index: 20;
+    background: #d1cece;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    position: relative;
+    z-index: 50;
+}
+
+.custom-radio {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+
+.input:checked + .radio {
+    background: url("./icons/arrow-right.png") no-repeat center/contain;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: relative;
+    background-color: green;
+    transition: background-color 0.3s linear;
+}
+
+.checkbox::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    transition: left 0.3s linear;
+}
+
+.input:checked + .checkbox {
+    background-color: red;
+}
+
+.input:checked + .checkbox::before {
+    left: 11px;
+}
+
+.label {
+    margin-left: 5px;
+}
+
+.checkbox2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.checkbox2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -2px;
+    bottom: -2px;
+    width: 26px;
+    height: 26px;
+    z-index: 2;
+}
+
+.input:checked + .checkbox2::before {
+    background: url("./icons/mark.png") no-repeat center/contain;
+}
+
+.checkbox3 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.checkbox3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -2px;
+    bottom: -2px;
+    width: 26px;
+    height: 26px;
+    z-index: 2;
+}
+
+.input:checked + .checkbox3::before {
+    background: url("./icons/power.png") no-repeat center/contain;
+}
+
+.button {
+    display: inline-block;
+    min-width: 135px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(to right,
+            #41ff2f 0%,
+            #28d81a 50%,
+            #119600 100%
+    );
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.card, .card-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 88%;
+    bottom: -25px;
+    background: #e8e8e8;
+    z-index: 4;
+}
+
+.card-2 {
+    width: 78%;
+    bottom: -47px;
+    background: #acacac;
+    z-index: 3;
+}
+
+.shadow{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    left: 20px;
+    right: 20px;
+    background: #dcdcdc;
+    border-radius: 0 0 20px 20px;
+}
+
+.shadow1{
+    bottom: -15px;
+    z-index: 2;
+}
+
+.shadow2{
+    bottom: -30px;
+    left: 40px;
+    right: 40px;
+    background: #d4d4d4;
+    z-index: 1;
+}
+
