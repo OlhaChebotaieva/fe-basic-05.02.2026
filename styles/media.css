@@ -1,0 +1,156 @@
+@media (width < 1200px) {
+    .banner {
+        padding-left: 0;
+    }
+
+    .banner__content {
+        max-width: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner__image {
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .blog__posts {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .recommended {
+        flex-wrap: wrap;
+        row-gap: 50px;
+        margin-top: 80px;
+    }
+
+    .items__cards {
+        justify-content: center;
+    }
+}
+
+@media (width < 1024px) {
+    .header .container {
+        flex-direction: column;
+        padding: 25px 0;
+    }
+
+    .header__actions {
+        margin: 20px 0;
+    }
+
+    .footer__top {
+        flex-direction: column;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+    }
+
+    .footer__social {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+
+    .footer__menus {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+
+    .items__sidebar,
+    .items__list    {
+        padding: 0 25px;
+    }
+
+    .items__sale {
+        width: 313px;
+        margin: 0 auto;
+    }
+
+    .items__sort {
+        margin-top: 20px;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+}
+
+@media (width < 768px) {
+    .footer__contacts {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (width < 600px) {
+    .banner__image img {
+        width: 100%;
+    }
+
+    .footer__cards {
+        flex-direction: column;
+    }
+
+    .footer__card {
+        border-right: 0;
+        text-align: center;
+    }
+
+    .recommended__item {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .recommended__description {
+        text-align: center;
+    }
+}
+
+@media (width < 425px) {
+    .nav__item {
+        margin: 0 10px;
+    }
+
+    .banner__title {
+        font-size: 40px;
+        line-height: 38px;
+        margin: 20px 0;
+    }
+
+    .footer__subscribe {
+        padding: 12px;
+    }
+
+    .items__sale {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .items__sale h5 {
+        right: 37px;
+    }
+
+    .items__sidebar,
+    .items__list    {
+        padding: 0 5px;
+    }
+
+    .items__sort-menu a {
+        margin-right: 5px;
+    }
+}
