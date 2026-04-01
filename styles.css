@@ -58,7 +58,7 @@ form {
 
 .checkbox {
     display: inline-block;
-    width: 30px;
+    width: 26px;
     height: 20px;
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -73,7 +73,7 @@ form {
     position: absolute;
     left: 2px;
     top: 2px;
-    width: 16px;
+    width: 14px;
     height: 16px;
     border-radius: 50%;
     background-color: white;
@@ -89,12 +89,12 @@ form {
 }
 
 .label {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .checkbox2 {
     display: inline-block;
-    width: 20px;
+    width: 26px;
     height: 20px;
     border: 1px solid lightgray;
     border-radius: 2px;
@@ -119,7 +119,7 @@ form {
 
 .checkbox3 {
     display: inline-block;
-    width: 20px;
+    width: 26px;
     height: 20px;
     border: 1px solid lightgray;
     border-radius: 2px;
@@ -136,10 +136,13 @@ form {
     width: 26px;
     height: 26px;
     z-index: 2;
+    background: url("./icons/power.png") no-repeat center/contain;
 }
 
 .input:checked + .checkbox3::before {
-    background: url("./icons/power.png") no-repeat center/contain;
+    background: url("./icons/poweron.png") no-repeat center/contain;
+    background-color: #27ae60;
+    border-radius: 50%;
 }
 
 .button {
@@ -178,14 +181,14 @@ form {
 .card {
     width: 88%;
     bottom: -25px;
-    background: #e8e8e8;
+    background: #dcd7d7;
     z-index: 4;
 }
 
 .card-2 {
     width: 78%;
     bottom: -47px;
-    background: #acacac;
+    background: #c6c1c1;
     z-index: 3;
 }
 
@@ -208,7 +211,7 @@ form {
     bottom: -30px;
     left: 40px;
     right: 40px;
-    background: #d4d4d4;
+    background: #e4e1e1;
     z-index: 1;
 }
 
