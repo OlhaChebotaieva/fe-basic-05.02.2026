@@ -140,8 +140,7 @@ form {
 }
 
 .input:checked + .checkbox3::before {
-    background: url("./icons/poweron.png") no-repeat center/contain;
-    background-color: #27ae60;
+    background: url("./icons/poweron.png") no-repeat center/contain, #27ae60;
     border-radius: 50%;
 }
 
